@@ -96,10 +96,10 @@ public class SiteController {
         if (bmi <18.5){
         weightbmi = "Underweight";
         }
-        else if(bmi >=18.5 || bmi <= 24.9){
+        else if(bmi >=18.5 && bmi <= 24.9){
         weightbmi = "Normal weight";
         }
-        else if(bmi >= 25 || bmi <=29.9){
+        else if(bmi >= 25 && bmi <=29.9){
         weightbmi = "Overweight";
         }
         else if(bmi >= 30){
