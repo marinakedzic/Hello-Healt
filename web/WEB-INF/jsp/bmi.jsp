@@ -11,26 +11,34 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="<c:url value="/css/mainCSS.css"/>" rel="stylesheet">
-        <title>JSP Page</title>
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+        <title>BMI</title>
     </head>
     <body>
+        <h1 id="h1i">BMI</h1>
+        <div class="divr">
           <form action= "bmitry" method="get">
-            <input type="text" name="weight" />
-            <input type="text" name="height" />
-            <input type="submit" value="Mesure">
-        </form>
-        <input type="text" name="weight" value="${weight}" />
-        <form action= "weightadd" method="post">
-            <input type="submit" value="Add weight">
-        </form>
-        <form action= "weightnewgraph" method="post">
-            <input type="submit" value="Graph">
-        </form>
-        <form action= "othersites" method="post">
-            <input type="submit" value="Sites">
-        </form>
-        <form action= "logout" method="post">
-            <input type="submit" value="Logout">
-        </form>
+            <input class="inputl" type="text" name="weight" />
+            <input  class="inputl" type="text" name="height" />
+            <input class="inputl" type="submit" value="Mesure">
+          </form>
+        </div>
+            
+        <div class="divr">
+            <span class="spanb">Rezultat: <input class="inputl" type="text" name="weight" value="${weight}" disabled/></span>
+            <form action="weightadd" method="post">
+                <input class="inputa" type="submit" value="Add weight">
+            </form>
+            <form action="weightnewgraph" method="post">
+                <input class="inputmv" type="submit" value="Graph">
+            </form>
+            <form action="othersites" method="post">
+                <input class="inputmv" type="submit" value="Sites">
+            </form>
+            <form action="logout" method="post">
+                <input class="inputmv" type="submit" value="Logout">
+            </form>
+        </div>
     </body>
 </html>

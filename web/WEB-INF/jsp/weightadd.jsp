@@ -11,18 +11,20 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="<c:url value="/css/mainCSS.css"/>" rel="stylesheet">
-        <title>JSP Page</title>
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+        <title>Weight Add</title>
     </head>
     <body>
         <h1 id="h1i">Add Weight</h1>
-        <div id="divap">
+        <div class="diva">
        <form action= "weightnewadd" method="post">
            <input class="inputm" type="id" name="id" value="${cid}" />
             <input class="inputl" type="weight" name="weight" />
             <input class="inputl" type="submit" value="Add">
         </form>
         </div>
-            <div>
+            <div class="diva">
         <form action= "weightnewgraph" method="post">
             <input class="inputm" type="text" name="id" value="${cid}">
             <input class="inputmv"type="submit" value="Graph">

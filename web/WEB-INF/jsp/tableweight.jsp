@@ -12,10 +12,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="<c:url value="/css/mainCSS.css"/>" rel="stylesheet">
-        <title>JSP Page</title>
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+        <title>Table weight</title>
     </head>
     <body>
-                  <h1>History of weights</h1>
+                  <h1 id="h1i">History of weights</h1>
                   <table>
                      <tr>
                         <th>Weight</th>
@@ -32,19 +34,20 @@
                         </tr>
                     </c:forEach>
                   </table>
-            
+                  <div class="divr">
             <form action= "weightadd" method="post">
                 <input class="inputm" type="text" name="id" value="${cid}">
-                <input type="submit" value="Add weight">
+                <input class="inputa" type="submit" value="Add weight">
             </form>
             <form action= "othersites" method="post">
-                <input type="submit" value="Sites">
+                <input class="inputmv" type="submit" value="Sites">
             </form>
             <form action= "bmi" method="post">
-                <input type="submit" value="BMI">
+                <input class="inputmv" type="submit" value="BMI">
             </form>
             <form action= "logout" method="post">
-                <input type="submit" value="Logout">
+                <input class="inputmv" type="submit" value="Logout">
             </form>
+                  </div>
     </body>
 </html>

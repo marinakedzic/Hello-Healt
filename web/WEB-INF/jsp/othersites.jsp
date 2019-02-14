@@ -9,21 +9,26 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <link href="<c:url value="/css/mainCSS.css"/>" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+        <title>Sites</title>
     </head>
     <body>
-        <h1>U pripremi</h1>
+        <h1 id="h1i">Sites</h1>
+        <div class="divr">
         <form action= "weightadd" method="post">
-            <input type="submit" value="Add weight">
+            <input class="inputa" type="submit" value="Add weight">
         </form>
         <form action= "weightnewgraph" method="post">
-            <input type="submit" value="Graph">
+            <input class="inputmv" type="submit" value="Graph">
         </form>
         <form action= "bmi" method="post">
-            <input type="submit" value="BMI">
+            <input class="inputmv" type="submit" value="BMI">
         </form>
         <form action= "logout" method="post">
-            <input type="submit" value="Logout">
+            <input class="inputmv" type="submit" value="Logout">
         </form>
+        </div>
     </body>
 </html>

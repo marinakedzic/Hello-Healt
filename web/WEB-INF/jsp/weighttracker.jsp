@@ -11,7 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="<c:url value="/css/mainCSS.css"/>" rel="stylesheet">
-        <title>JSP Page</title>
+        <title>Weight Tracker</title>
     </head>
     <body>
         <h1 id="h1i">Hello Health</h1>
