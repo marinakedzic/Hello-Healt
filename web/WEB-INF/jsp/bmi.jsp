@@ -19,8 +19,8 @@
         <h1 id="h1i">BMI</h1>
         <div class="divr">
           <form action= "bmitry" method="get">
-            <input class="inputl" type="text" name="weight" />
-            <input  class="inputl" type="text" name="height" />
+            <span class="spanb">Weight: <input class="inputl" type="text" name="weight" /></span>
+            <span class="spanb">Height: <input  class="inputl" type="text" name="height" /></span>
             <input class="inputl" type="submit" value="Mesure">
           </form>
         </div>
