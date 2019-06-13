@@ -15,11 +15,11 @@
     <body>
         <h1 id="h1i">Hello Health</h1>
         <div class="divi">
-            <form action= "login" method="post">
+            <form action="login" method="post">
                 <input class="inputi" type="submit" value="Login">
                 <!--<input type="text" value="${cid}">-->
             </form>
-            <form action= "registration" method="post">
+            <form action="registration" method="post">
                 <input class="inputi" type="submit" value="Registration">
             </form>
         </div>
